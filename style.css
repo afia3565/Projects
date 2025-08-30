@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://assets-news.housing.com/news/wp-content/uploads/2022/08/18174406/bangladesh-places-to-visit-FEATURE-compressed.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+
+
+}
+.logo{
+    width: 140px;
+    height: 70px;
+    cursor: pointer;
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+}
+.register-btn{
+    background: #fff;
+    color: black;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.container{
+    padding: 0 7%;
+}
+.container h1{
+    font-size: 4vw;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding-top: 22%;
+}
+.search-bar{
+    background: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+
+}
+.search-bar form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search-bar form input{
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.search-bar form button{
+    background: #ff5361;
+    width: 55px;
+    height: 55px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.search-bar form button img{
+    width: 15px;
+    margin-top: 7px;
+}
+.location-input{
+    flex: 1;
+}
+.search-bar form label{
+    font-weight: 600
+    ;
+}
+
+
+/* -------exclusives----- */
+.sub-title{
+    margin: 50px 0 20px;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: #333;
+}
+.exclusives{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.exclusives div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.exclusives div{
+    position: relative;
+}
+.exclusives div span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+}
+
+/* ------tnending placess----- */
+
+.trending{
+    display: grid;
+     grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 30px;
+}
+.trending div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.trending h3{
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* ---call to action--- */
+.cta{
+    margin: 80px 0;
+    background-image: linear-gradient(to right, #3f2321, transparent), url(https://c4.wallpaperflare.com/wallpaper/74/457/102/life-room-interior-home-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 5%;
+    color: #fff;
+}
+.cta h3{
+    font-size: 4vw;
+    font-weight: 500;
+    line-height: 4.3vw;
+}
+.cta p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.cta-btn{
+    background: #ff5361;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.start-btn{
+    text-decoration: none;
+    background: #ff5361;
+    color: #fff;
+    width: 80%;
+    max-width: 350px;
+    border-radius: 30px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin: 60px auto;
+    padding: 15px;
+    
+    
+}
+
+/* -------about------ */
+.about-msg{
+    text-align: center;
+    margin: 80px 0;
+    font-size: 17px;
+    color: #333;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+.about-msg h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+}
+
+/* ------footetr---- */
+
+.footer{
+    text-align: center;
+    margin: 80px 10px;
+
+}
+.footer a{
+    text-decoration: none;
+    color: #999;
+    font-size: 25px;
+    margin: 0 10px;
+}
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+.footer p{
+    padding-bottom: 15px;
+}
+.active{
+    position: relative;
+}
+
+.active::after{
+    content: '';
+    background: #fff;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -12px;
+    border-radius: 2px;
+
+}
+
+
+
+/* -------listingpage----- */
+
+.navbar-white{
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5)
+
+}
+
+.navbar-white .nav-links li a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar-white .register-btn{
+    background: #ff5361;
+    color: #fff;
+}
+
+
+.list-container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.left-col{
+    flex-basis: 70%;
+}
+
+.right-col{
+    
+    flex-basis: 25%;
+}
+.left-col p{
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.house{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    border-top: 1px solid #ccc;
+}
+.house-img{
+    flex-basis: 40%;
+    width: 20px;
+}
